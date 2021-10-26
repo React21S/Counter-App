@@ -1,3 +1,7 @@
+# counter App
+
+![screenshot](Counter_App.png)
+
 # Getting Started with Create React App
 
 
