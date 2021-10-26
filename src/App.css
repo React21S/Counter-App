@@ -37,6 +37,9 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
 
 body{
  
@@ -89,10 +92,17 @@ button{
   color: #1d1818;
   border: none;
   border-radius: 5px;
-  box-shadow: 0 0 5px #333;
   padding: 1rem;
+  cursor: pointer;
 }
 
+.odd{
+  background-color: aqua;
+}
+
+.even{
+  background-color: blue;
+}
 
 footer{
   text-align: center;
