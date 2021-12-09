@@ -1,11 +1,13 @@
 # counter App
 - Counter App where user can add and remove and reset the count.
+
 ![screenshot](/img/Counter_App.png)
 
 ---
 ### Changes in color and value
 
 In this counter app, it is possible to have multiple counters with different values. Each value can be changed in the counter display when clicking the addition or subtraction button. Also, the counter display changed with random colors in every click on a different button.
+
 ![screenshot](/img/Changedcolor.png)
 
 ___
