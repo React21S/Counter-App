@@ -1,14 +1,9 @@
 const Footer = ()=>{
     return(
       <div>
- <footer>
-         <p>
-             <small>
-            Femi Adesola Copyrights
-             </small>
-         </p>
-         
-         </footer>
+        <footer>
+          <p>Femi Adesola &copy; 2021</p>   
+        </footer>
       </div>
     );
   };

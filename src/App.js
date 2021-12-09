@@ -1,8 +1,7 @@
-import './App.css';
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Main from './components/Main'
-import MainF from './components/MainF'
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './components/Main';
+
 
 function App() {
   return (
@@ -10,9 +9,8 @@ function App() {
      <Header/>
       <Main/>
       <Footer/>
-      <MainF/>
     </div>
   );
-}
+};
 
 export default App;
