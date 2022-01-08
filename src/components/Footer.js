@@ -18,7 +18,7 @@ const Footer = ()=>{
                         </a>
                     </div>
                    
-                    <p>Femi Adesola &copy; 2021 </p>
+                    <p>Femi Adesola &copy; {new Date().getFullYear()} </p>
                     </div>
                     
             </footer>
