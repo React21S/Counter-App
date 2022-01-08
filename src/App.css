@@ -115,9 +115,7 @@ footer{
 
 footer{
   bottom: 0;
-  position: absolute;
   width: 100%;
-
 }
 .footerWrapper{
   display: flex;
@@ -149,7 +147,6 @@ h1{
 }
 
 main{
-
   background-color:var(--br-2);
   display: block;
   justify-content: center;
@@ -192,18 +189,82 @@ button{
 }
 
 
+@media screen and (max-width:568px) {
+  html,body{
+    overflow-x: hidden;
+  }
 
-/* .odd{
-  background-color: aqua;
+  header{
+    font-size: 10px;
+  }
+
+  button{
+    width: 150px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+  }
+  .circle{
+    width: 100px;
+    height: 100px;
 }
 
-.even{
-  background-color: blue;
+main{
+ padding:10px 0;
+  margin: 0;
+  margin-top: 30px; 
 }
 
-footer{
-  text-align: center;
+footer p{ 
+  font-size: 1rem;
+  padding: 20px;
 }
- */
 
+footer .icons i {
+  margin: 10px ;
+  font-size: 20px;
+}
+header,
+footer{ 
+  padding: 30px;
+}
 
+}
+
+@media screen and (min-width:569px) and (max-width:768px) {
+  html,body{
+    overflow-x: hidden;
+  }
+  header{
+    font-size: 40px;
+  }
+
+  main{
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: block;
+    flex-wrap: wrap;
+  }
+   
+   footer p{ 
+     font-size: 2rem;
+     padding: 30px;
+   }
+   
+   footer .icons i {
+     margin: 30px ;
+     font-size: 40px;
+   }
+ 
+   button{
+    width: 200px;
+    height: 60px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 600;
+  
+  }
+}
